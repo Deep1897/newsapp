@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detailed news</title>
+    <style>
+        #navbar {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            width: 100%;
+            height: 50px;
+            background-color: rgb(233, 189, 136);
+        }
+        
+        #navbar>input {
+            width: 60%;
+            height: 30px;
+            border-radius: 20px;
+        }
+        
+        #detailed_news {
+            margin: auto;
+            text-align: center;
+        }
+        
+        #detailed_news>div {
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        
+        #detailed_news>div>img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="navbar">
+        <h3>News App</h3>
+
+        <input type="text" placeholder="Search News" id="search">
+
+    </div>
+
+    <div id="detailed_news"></div>
+    <!-- Same navbar with same functionality  -->
+    <!-- Append detailed news in div with id "detailed_news"  -->
+</body>
+
+</html>
+
+<script src="/scripts/news.js">
+</script>
